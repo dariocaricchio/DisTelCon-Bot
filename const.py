@@ -1,0 +1,1 @@
+QUOTE_LANG_DB_KEY = "quote_lang"
