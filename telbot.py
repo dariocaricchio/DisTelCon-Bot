@@ -122,5 +122,6 @@ def message_handler(message):
     bot.send_message(message.chat.id, "Yes/no?", reply_markup=gen_markup
 '''
 
-print("Bot is on its way!")
-bot.polling()
+def main():
+	print("TelBot is on its way!")
+	bot.polling()
