@@ -47,7 +47,7 @@ def __init_quote_lang__(lang: str = 'en'):
 @bot.event
 async def on_ready():
     print("bot online") #will print "bot online" in the console when the bot is online
-    
+
 @bot.command(help='Simple command which make the bot  respond with "pong!" when you type "\\ping"')
 async def ping(ctx):
     await ctx.send("pong!") #simple command so that when you type "\ping" the bot will respond with "pong!"
@@ -85,7 +85,7 @@ async def lang(ctx, new_lang: str = None):
 		else:
 			await ctx.send(f"Quote Language '{l}' is not supported. Language is {quote_lang}")
 	except:
-		await ctx.send("Ops! Something went wrong, how embarassing!")
+		await ctx.send("Ops! Something went wrong, how embarassing!🙈")
 
 @bot.command(help = 'Invite the bot to your server')
 async def invite(ctx):
